@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>JupyterLab</title><meta name="viewport" content="width=device-width,initial-scale=1">   <script id="jupyter-config-data" type="application/json">{"allow_hidden_files": false, "appName": "JupyterLab", "appNamespace": "lab", "appSettingsDir": "/Library/Frameworks/Python.framework/Versions/3.11/share/jupyter/lab/settings", "appUrl": "/lab", "appVersion": "4.0.2", "baseUrl": "/", "buildAvailable": true, "buildCheck": true, "cacheFiles": false, "devMode": false, "disabledExtensions": [], "exposeAppInBrowser": false, "extensionManager": {"can_install": true, "install_path": "/Library/Frameworks/Python.framework/Versions/3.11", "name": "PyPI"}, "extraLabextensionsPath": [], "federated_extensions": [{"extension": "./extension", "load": "static/remoteEntry.aa1060b2d1221f8e5688.js", "name": "jupyterlab_pygments", "style": "./style"}], "fullAppUrl": "/lab", "fullLabextensionsUrl": "/lab/extensions", "fullLicensesUrl": "/lab/api/licenses", "fullListingsUrl": "/lab/api/listings", "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js", "fullSettingsUrl": "/lab/api/settings", "fullStaticUrl": "/static/lab", "fullThemesUrl": "/lab/api/themes", "fullTranslationsApiUrl": "/lab/api/translations", "fullTreeUrl": "/lab/tree", "fullWorkspacesApiUrl": "/lab/api/workspaces", "ignorePlugins": [], "labextensionsPath": ["/Users/thehoop/Library/Jupyter/labextensions", "/Users/thehoop/Library/Python/3.11/share/jupyter/labextensions", "/Library/Frameworks/Python.framework/Versions/3.11/share/jupyter/labextensions", "/usr/local/share/jupyter/labextensions", "/usr/share/jupyter/labextensions"], "labextensionsUrl": "/lab/extensions", "licensesUrl": "/lab/api/licenses", "listingsUrl": "/lab/api/listings", "mathjaxConfig": "TeX-AMS_HTML-full,Safe", "mode": "multiple-document", "news": {"disabled": false}, "notebookStartsKernel": true, "notebookVersion": "[2, 7, 0]", "preferredPath": "/", "quitButton": true, "rootUri": "file:///Users/thehoop", "schemasDir": "/Library/Frameworks/Python.framework/Versions/3.11/share/jupyter/lab/schemas", "serverRoot": "/Users/thehoop", "settingsUrl": "/lab/api/settings", "staticDir": "/Library/Frameworks/Python.framework/Versions/3.11/share/jupyter/lab/static", "store_id": 0, "templatesDir": "/Library/Frameworks/Python.framework/Versions/3.11/share/jupyter/lab/static", "terminalsAvailable": true, "themesDir": "/Library/Frameworks/Python.framework/Versions/3.11/share/jupyter/lab/themes", "themesUrl": "/lab/api/themes", "token": "a4545dce6fbfe206560506d14c2a22d8a3873e056205b38f", "translationsApiUrl": "/lab/api/translations", "treePath": "", "treeUrl": "/lab/tree", "userSettingsDir": "/Users/thehoop/.jupyter/lab/user-settings", "virtualDocumentsUri": "file:///Users/thehoop/.virtual_documents", "workspace": "default", "workspacesApiUrl": "/lab/api/workspaces", "workspacesDir": "/Users/thehoop/.jupyter/lab/workspaces", "wsUrl": ""}</script><link rel="icon" type="image/x-icon" href="/static/favicons/favicon.ico" class="idle favicon"><link rel="" type="image/x-icon" href="/static/favicons/favicon-busy-1.ico" class="busy favicon"><script defer="defer" src="/static/lab/main.0ed97e7a89d525f801f3.js?v=0ed97e7a89d525f801f3"></script></head><body><script>/* Remove token from URL. */
+  (function () {
+    var location = window.location;
+    var search = location.search;
+
+    // If there is no query string, bail.
+    if (search.length <= 1) {
+      return;
+    }
+
+    // Rebuild the query string without the `token`.
+    var query = '?' + search.slice(1).split('&')
+      .filter(function (param) { return param.split('=')[0] !== 'token'; })
+      .join('&');
+
+    // Rebuild the URL with the new query string.
+    var url = location.origin + location.pathname +
+      (query !== '?' ? query : '') + location.hash;
+
+    if (url === location.href) {
+      return;
+    }
+
+    window.history.replaceState({ }, '', url);
+  })();</script></body></html>
