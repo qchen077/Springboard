@@ -1,0 +1,17 @@
+metric,value
+model_name,LightGBM (Final Model)
+precision,0.492
+recall,0.8941
+f1_score,0.6347
+roc_auc,0.9480
+accuracy,0.880
+true_negatives,6236
+false_positives,828
+false_negatives,95
+true_positives,802
+training_samples,32950
+test_samples,8238
+smote_applied,Yes
+cross_validation,Stratified KFold (5 folds)
+early_stopping_rounds,50
+notes,Model trained with SMOTE + StandardScaler + Early Stopping + 5-Fold CV
