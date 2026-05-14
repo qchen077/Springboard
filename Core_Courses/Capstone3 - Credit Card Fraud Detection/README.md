@@ -1,5 +1,7 @@
 # Credit Card Fraud Detection Pipeline
 
+![Credit Card Fraud Detection Banner](outputs/images/readme_header.png)
+
 ## Dataset Setup
 
 The raw datasets are excluded from this repository due to GitHub file size limitations.
