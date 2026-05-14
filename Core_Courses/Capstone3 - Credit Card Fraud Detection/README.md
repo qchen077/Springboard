@@ -1,6 +1,8 @@
 # Credit Card Fraud Detection Pipeline
 
-![Credit Card Fraud Detection Banner](outputs/images/readme_header.png)
+<p align="center">
+  <img src="images/readme_header.png" width="950">
+</p>
 
 ## Dataset Setup
 
