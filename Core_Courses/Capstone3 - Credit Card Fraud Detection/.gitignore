@@ -1,0 +1,13 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.Rhistory
+
+Data/
+
+catboost_info/
+Notebooks/catboost_info/
+
+*.pkl
+*.joblib
+*.model
